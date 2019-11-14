@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinApp.MainPage">
+
+    <Grid BackgroundColor="#2A3C53">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackLayout BackgroundColor="#2A3C53" Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="7,0,7,0">
+            <Label TextColor="#83909F" Text="Strategy manager" HorizontalOptions="StartAndExpand"  VerticalOptions="Center"></Label>
+            <Button HorizontalOptions="EndAndExpand" VerticalOptions="Center" Text="Close1"></Button>
+            <Button HorizontalOptions="End" VerticalOptions="Center" Text="Close2"></Button>
+            <Button HorizontalOptions="End" VerticalOptions="Center" Text="Close3"></Button>
+        </StackLayout>
+    </Grid>
+
+    
+
+</ContentPage>
